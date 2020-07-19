@@ -1,0 +1,23 @@
+a {
+  font-size: 56px;
+}
+
+a:hover {
+  background-color: red;
+}
+
+a:focus {
+  background-color: orange;
+}
+
+a:active {
+  background-color: black;
+}
+
+a::before {
+  content: '♥';
+}
+
+a::after {
+  content: '♥';
+}

@@ -68,4 +68,35 @@ body {
   .wrapper {
     width: 600px;
   }
+
+  #main-content {
+    position: relative;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+  }
+
+  #sidebar {
+    position: relative;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: green;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+
+  #main-content {
+    background-color: black;
+    color: white;
+  }
 }
